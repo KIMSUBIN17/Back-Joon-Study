@@ -13,9 +13,10 @@ int main(void) {
 		for(j = i; j < number; j++) {
 			if(min > array[j]) {
 				min = array[j];
-				index = j;  //�ּڰ��� ���� �˻��ϴ� ������ �ٲ� 
+				index = j;  //최솟값을 현재 검색하는 값으로 바꿈 
 			}
 		}
+		//내가 찾은 최솟값과 제일 앞에있는 값을 교환
 		temp = array[i];
 		array[i] = array[index];
 		array[index] = temp;
@@ -25,3 +26,4 @@ int main(void) {
 	}
 	return 0;
 }
+//선택정렬사용
