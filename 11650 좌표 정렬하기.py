@@ -1,14 +1,14 @@
 n = int(input())
 
-nums=[]
+arr=[]
 for i in range(n):
     [a,b] = map(int,input().split())
-    nums.append([a,b])
+    arr.append([a,b])
     
-nums = sorted(nums)
+arr = sorted(arr)
 
 for i in range(n):
-    print(nums[i][0], nums[i][1])
+    printarr[i][0], arr[i][1])
 
 #n 입력하고, n만큼 좌표입력
 #좌표입력받으면 정렬 수행
