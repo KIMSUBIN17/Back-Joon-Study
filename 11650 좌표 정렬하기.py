@@ -10,7 +10,7 @@ for i in range(n):
 arr = sorted(arr)
 
 for i in range(n):
-    printarr[i][0], arr[i][1])
+    print(arr[i][0], arr[i][1])
 
 '''
 #문제
