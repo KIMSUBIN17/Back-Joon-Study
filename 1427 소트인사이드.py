@@ -24,4 +24,14 @@ for i in list:
 3. 정렬된 리스트 end=''사용해 한개씩 출력
 리스트와 같은 iterable객체는 기본으로 sort()함수 내장하고 있어서 굳이 sorted()함수 사용 않고도 sort()함수 사용해 바로 정렬 가능
 
+#더 짧은 코드
+nums = input()
+nums = [int(n)  for n in nums]
+
+sorted_list = sorted(nums, reverse=True)
+
+for n in sorted_list : 
+    print(n, end='')
+
+
 '''
